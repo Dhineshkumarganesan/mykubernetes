@@ -1,0 +1,18 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: ${monitoring_namespace}
+  namespace: ${monitoring_namespace}
+  labels:
+    release: prometheus
+spec:
+  endpoints:
+  - port: 'pushgateway' # must match the label from Service declaration
+    path: /metrics
+    interval: 5s
+  namespaceSelector:
+    matchNames:
+    - ${monitoring_namespace}
+  selector:
+    matchLabels:
+      function: 'pushgateway-target'
