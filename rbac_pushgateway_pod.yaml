@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: 'pushgateway'
+  namespace: ${pushgateway_ns}
+  labels:
+    function: 'pushgateway'
+spec:
+  containers:
+  - name: 'pushgateway'
+    image: prom/pushgateway
