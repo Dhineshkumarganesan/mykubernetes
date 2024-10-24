@@ -146,6 +146,10 @@ systemctl status kubelet<br>
 
 CRITICAL INFO
 *****************
+Exam notes-1
+
+
+
 Exam notes-8
 
 Deployments provide desires state configuration for ReplicaSets.<br>
