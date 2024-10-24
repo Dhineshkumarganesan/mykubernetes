@@ -231,7 +231,27 @@ Init containers run before the main container(s) and perform startup tasks outsi
 
 Exam notes- 10
 
+kubectl provides a command-line interface to the Kubernetes API
+--selector flag will filter results by label.
+--record This flag saves the command as an annotation on the affected object.
+RBAC can be used to manage ServiceAccount permissions.
+A RoleBinding binds a Role to a subject, but only within a particular Namespace
+kubectl describe This command displays object status in a human-readable way.
+--dry-run=client This flag will validate the object, but will not actually create it
+kubectl top This command displays resource usage data.
+A Deployment‘s template specifies a Pod definition used to create replicas.
+Scaling means changing a Deployment‘s replica count.
+kubectl scale
+You can scale a deployment with this command
+ kubectl edit deployment
+You can scale a deployment by using kubectl edit to change the replica count.
+Rolling Updates gradually roll out changes across a Deployment‘s replicas.
+Deployments provide desires state configuration for ReplicaSets.
+Stacked etcd, or managing Etcd alongside other control plane components, is one option for an HA setup.
+External etcd, or managing Etcd separately from other control plane components, is one option for an HA setup.
 
+
+ 
 
 
 
