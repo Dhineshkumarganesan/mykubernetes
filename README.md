@@ -217,6 +217,20 @@ RBAC can be used to manage ServiceAccount permissions<br>
  --record flag saves the command as an annotation on the affected object<br>
 Containers within a Pod can communicate on any port.<br>
 Containers within a Pod can share volumes.<br>
+Startup probes run only during startup.
+Resource limits can prevent containers from using more resources than the limit specifies.
+Resource requests prevent the scheduler from scheduling Pods on Nodes that do not have enough resources to meet the request.
+Resource requests allow you to specify the amount of resources you expect a container to use.
+Liveness probes allow you to determine container status in a custom way
+A restart policy determines what will happen when a container stops.
+Secret store sensitive configuration data.
+A ConfigMap allows you to store key-value configuration data.
+Pods must have at least one container, but can have multiple containers.
+Init containers run before the main container(s) and perform startup tasks outside of the main container(s).
+
+
+EXAM - 15
+
 
 
 
