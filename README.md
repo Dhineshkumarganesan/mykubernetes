@@ -146,7 +146,7 @@ systemctl status kubelet<br>
 
 CRITICAL INFO
 *****************
-Exam -8
+Exam notes-8
 
 Deployments provide desires state configuration for ReplicaSets.<br>
 Pod domain names are of the form pod-ip-address.namespace-name.pod.cluster.local.<br>
@@ -229,7 +229,9 @@ Pods must have at least one container, but can have multiple containers.
 Init containers run before the main container(s) and perform startup tasks outside of the main container(s).
 
 
-EXAM - 15
+Exam notes- 10
+
+
 
 
 
