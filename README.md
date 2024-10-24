@@ -163,4 +163,64 @@ A Deployment‘s template specifies a Pod definition used to create replicas.
 Rollbacks allow you to easily revert a Deployment to a previous state.
 DNS allows Kubernetes Pods and Servics to be located using domain names
 Static Pods can be used to run containers on a Node in the absence of a Kubernetes API Server
+nodeSelector causes the Pod to run on Nodes with specific labels.
+A DaemonSet would run one replica on each Node.
+nodeName option allows you to specify which Node the Pod should run on by name.
+When a new Node is added, the DaemonSet will create a replica for that Node.
+A Mirror Pod represents a Static Pod in the Kuberntes API, allowing you to easily view the Static Pod‘s status.
+You can use an init container to pause startup until an external resource becomes available.
+You can use an init container to do startup tasks involving sensitive data outside the main container(s).
+You can use an init container to populate a shared volume with data
+Onfailure will ensure the container restarts if it fails, but will not be run again once it succeeds
+NetworkPolicies allow you to control network access to Pods.
+CNI plugins implement the Kubernetes Network Model in various ways.
+When no CNI plugin is installed, Nodes will remain in the NotReady state.
+Network communication between Pods is transparent, regardless of which Node(s) they are running on
+Ingresses expose external access to Services while providing additional features.
+Services provide an abstract communication layer for sets of Pods.
+Endpoints are the underlying entities (such as Pods) that a Service routes traffic to.
+Every Service is automatically assigned a domain name.
+Service domain names can be used by Pods.
+NodePort Services use a port on each Node to expose the Service externally.
+my-service.default.svc.cluster.local
+This is the correct fully-qualified domain name for the Service.
+my-service
+This is the short form of the domain name for the Service, which you can use because the Pod is in the same Namespace as the Service.
+An Ingress routes traffic to entities known as **backends**
+**ClusterIP** Services expose Pods to other Pods within the cluster.
+Container file system data is lost when the container is removed.
+The volume type determines the underlying storage mechanism that is used to store the data.
+emptyDir volume type is great for sharing data between containers, and is automatically cleaned up if the Pod is deleted.
+This command displays object status in a human-readable way.
+kubectl provides a command-line interface to the Kubernetes API
+etcdctl is the command-line tool for Etcd.
+An HA setup for Kubernetes involved **multiple control plane node**s.
+kubectl drain is used to **take a node down** for **maintenance**.
+**kubeadm upgrade apply** command will upgrade the control plane.
+kubectl add node will allow Pods to be scheduled on a previously-drained Node
+Etcd is the Backend data store or Kubernetes.
+**External etcd**or managing Etcd separately from other control plane components, is one option for an HA setup.
+**Stacked etcd**or managing Etcd alongside other control plane components, is one option for an HA setup.
+**kubeadm** includes functionality to help you upgrade Kubernetes clusters.
+Minikube allows you to easily create single-node clusters.
+kubeadm allows you to build Kubernetes clusters.
+A RoleBinding binds a Role to a subject, but only within a particular Namespace.
+--dry-run=client flag will validate the object, but will not actually create it.
+A ServiceAccount allows Pods to access the Kubernetes API.
+kubectl top command displays resource usage data.
+A ClusterRole defines a set of permission, and resides outside any Namespace.
+K8S The 8 stands for the 8 letters between K and S.
+Metrics Server tool collects data about resource usage by each container/Pod
+RBAC can be used to manage ServiceAccount permissions
+--dry-run=client flag will validate the object, but will not actually create it.
+ kubectl get,  --selector flag allows you to filter results by label
+ --record flag saves the command as an annotation on the affected object
+Containers within a Pod can communicate on any port.
+Containers within a Pod can share volumes.
+
+
+
+
+
+
 
