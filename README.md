@@ -142,3 +142,25 @@ kubectl config view <br>
 kubectl get pods<br>
 --Retrieve information about the cluster core components<br>
 systemctl status kubelet<br>
+
+
+CRITICAL INFO
+*****************
+Exam -8
+
+Deployments provide desires state configuration for ReplicaSets.<br>
+Pod domain names are of the form pod-ip-address.namespace-name.pod.cluster.local.<br>
+A single NetworkPolicy can control both ingress and egress traffic.<br>
+The cluster has a single virtual network spanning across all Nodes<br>
+Each Pod has an IP address unique to the cluster.<br>
+Scaling means changing a Deployment‘s replica count
+kubectl scale
+You can scale a deployment with this command.
+kubectl edit deployment
+You can scale a deployment by using kubectl edit to change the replica count.
+Rolling Updates gradually roll out changes across a Deployment‘s replicas
+A Deployment‘s template specifies a Pod definition used to create replicas.
+Rollbacks allow you to easily revert a Deployment to a previous state.
+DNS allows Kubernetes Pods and Servics to be located using domain names
+Static Pods can be used to run containers on a Node in the absence of a Kubernetes API Server
+
