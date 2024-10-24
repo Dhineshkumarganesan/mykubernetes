@@ -249,7 +249,63 @@ Rolling Updates gradually roll out changes across a Deployment‘s replicas.
 Deployments provide desires state configuration for ReplicaSets.
 Stacked etcd, or managing Etcd alongside other control plane components, is one option for an HA setup.
 External etcd, or managing Etcd separately from other control plane components, is one option for an HA setup.
+Metrics Server collects resource usage metrics for Pods/containers.
+Etcd is the Backend data store or Kubernetes.
+Minikube allows you to easily create single-node clusters.
+kubeadm allows you to build Kubernetes clusters.
+kubeadm upgrade apply  This command will upgrade the control plane
+kubectl uncordon This command will allow Pods to be scheduled on a previously-drained Node.
+kubectl drain is used to take a node down for maintenance.
+kubeadm includes functionality to help you upgrade Kubernetes clusters.
+An HA setup for Kubernetes involved multiple control plane nodes.
+etcdctl is the command-line tool for Etcd.
+nodeName option allows you to specify which Node the Pod should run on by name.
+Static Pods can be used to run containers on a Node in the absence of a Kubernetes API Server
+A DaemonSet would run one replica on each Node.
+nodeSelector causes the Pod to run on Nodes with specific labels.
+When a new Node is added, the DaemonSet will create a replica for that Node
+A Mirror Pod represents a Static Pod in the Kuberntes API, allowing you to easily view the Static Pod‘s status.
+Startup probes run only during startup.
+NetworkPolicies allow you to control network access to Pods.
+A single NetworkPolicy can control both ingress and egress traffic.
+DNS allows Kubernetes Pods and Servics to be located using domain names
+CNI plugins implement the Kubernetes Network Model in various ways.
+When no CNI plugin is installed, Nodes will remain in the NotReady state.
+The cluster has a single virtual network spanning across all Nodes.
+Each Pod has an IP address unique to the cluster.
+OnFailure This will ensure the container restarts if it fails, but will not be run again once it succeeds.
+ConfigMap A ConfigMap allows you to store key-value configuration data
+A restart policy determines what will happen when a container stops
+Pods must have at least one container, but can have multiple containers.
+Secret store sensitive configuration data.
+Resource limits can prevent containers from using more resources than the limit specifies.
+Shared storage volumes-Containers within a Pod can share volumes.
+Network ports that are not exposed to the cluster--Containers within a Pod can communicate on any port.
+Liveness probes allow you to determine container status in a custom way.
+Network communication between Pods is transparent, regardless of which Node(s) they are running on.
+Resource requests allow you to specify the amount of resources you expect a container to use.
+Resource requests prevent the scheduler from scheduling Pods on Nodes that do not have enough resources to meet the request.
+Init containers run before the main container(s) and perform startup tasks outside of the main container(s).
+You can use an init container to populate a shared volume with data
+You can use an init container to pause startup until an external resource becomes available.
+You can use an init container to do startup tasks involving sensitive data outside the main container(s).
+The kubectl logs command can be used to access container logs.
+If the Pod has more than one container, you must specify the container name.
+In a kubeadm cluster, cluster components such as kube-apiserver run as static Pods in the kube-system Namespace.
+Create a Pod and run commands inside that Pod.This is a good strategy for interacting with the Kubernetes network from within.
+kubectl logs -n kube-system --In a kubeadm cluster, kube-apiserver runs as a system pod. Therefore, you can get the logs with the kubectl logs command
+Look for DNS Pods in the kube-system Namespace--In a kubeadm cluster, the DNS runs as Pods within the kube-system Namespace.
+kubectl get nodes - This command will display all Nodes, along with their status.
+kubectl describe pod kubectl describe displays detailed status information in a human-readable way.
+sudo journalctl -u kubelet In a kubeadm cluster, kubelet runs as a standard service. Therefore, you can view its logs with journalctl.
+kubectl exec -n dev my-pod -c busybox -- ls This command includes all elements necessary to execute the command in the correct container.
+kubectl logs This command can be used to obtain container logs.
+ClusterRole A ClusterRole defines a set of permission, and resides outside any Namespace.
 
+
+
+
+ 
 
  
 
