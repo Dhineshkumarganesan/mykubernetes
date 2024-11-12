@@ -310,7 +310,35 @@ ClusterRole A ClusterRole defines a set of permission, and resides outside any N
 
 
  
+docker stuff<br>
+docker<br>
+containerd (process supervisor)<br>
+docker swarm (orchestration)<br>
+<br>
+Kubernetes stuff<br>
+kubernetes (orchestration, has many components)
 
+Mesosphere stuff<br>
+Mesos (orchestration)<br>
+
+CoreOS stuff<br>
+CoreOS (linux distribution)<br>
+rkt (runs containers)<br>
+flannel (network overlay)<br>
+etcd (key-value store)<br>
+
+HashiCorp stuff<br>
+consul (key-value store, service discovery)<br>
+packer (creates containers)<br>
+vault (secrets management)<br>
+nomad (orchestration)<br>
+
+OCI (open container initiative) stuff<br>
+runC (runs containers)<br>
+libcontainer (donated by Docker, powers runC)<br>
+systemd-nspawn (man page) (starts containers)<br>
+dumb-init (init process)<br>
+LXC (runs containers, from Canonical)<br>
  
 
 
