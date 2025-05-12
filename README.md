@@ -352,5 +352,8 @@ Container Storage Driver
 ![image](https://github.com/user-attachments/assets/b0fa4437-b3cc-475d-b9bd-3307cd5ef55c)
 
 
+Volumes
+
+![image](https://github.com/user-attachments/assets/6e7fbf4c-2797-48ee-a562-163d16351eb2)
 
 
