@@ -452,6 +452,27 @@ API Groups
 
 ![image](https://github.com/user-attachments/assets/3b213aa1-805a-4052-b84d-71c5295b9d8e)
 
+![image](https://github.com/user-attachments/assets/48e6c3a9-0e26-4dfb-95b1-83f3eb584c03)
+
+![image](https://github.com/user-attachments/assets/ecd49e4f-8926-4c0b-94a1-d34d562fb707)
+
+![image](https://github.com/user-attachments/assets/2619fb3d-9137-4798-a010-20e0ca91d550)
+
+![image](https://github.com/user-attachments/assets/ca35eefa-93e8-4d48-b1c9-123469b5e229)
+
+![image](https://github.com/user-attachments/assets/0b86fe4c-8b96-4acf-af13-d74446a14211)
+
+![image](https://github.com/user-attachments/assets/ee88d3a9-da31-48fa-948f-ebbde5ca21bc)
+
+
+![image](https://github.com/user-attachments/assets/fefa11ec-0e85-4d6a-bf6d-d098e5e662b1)
+
+![image](https://github.com/user-attachments/assets/8f2474ae-16ba-4e6b-a7ba-78e8c718b020)
+
+![image](https://github.com/user-attachments/assets/1eaf166f-9fc1-4c47-bb09-692e9b3719fc)
+
+
+
 
 
  QUANTUM KUBERNETES
