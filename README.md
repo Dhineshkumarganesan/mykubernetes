@@ -443,6 +443,14 @@ Volumes
 ![image](https://github.com/user-attachments/assets/0eb2fc9b-6677-4bcb-88b8-d266dca4c3d9)
 
 
+API Groups
+
+![image](https://github.com/user-attachments/assets/e28467fb-92f7-441c-bceb-42ad0ceeacbf)
+
+
+![image](https://github.com/user-attachments/assets/3242927a-d827-477c-9ab7-29401a9ecc94)
+
+![image](https://github.com/user-attachments/assets/3b213aa1-805a-4052-b84d-71c5295b9d8e)
 
 
 
