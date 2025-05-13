@@ -398,6 +398,28 @@ Volumes
 
 ![image](https://github.com/user-attachments/assets/588ae093-39e1-4374-aa13-973b90d02738)
 
+![image](https://github.com/user-attachments/assets/b2405aa5-27c9-491b-9219-cfa5b219559b)
+
+![image](https://github.com/user-attachments/assets/04b77d69-a8a1-426f-af9f-2539fdf2a926)
+
+![image](https://github.com/user-attachments/assets/9a56e28e-8268-4f79-afc5-bc152181efdf)
+
+![image](https://github.com/user-attachments/assets/7fa0da46-c83a-4fa7-bd68-63fd2b149876)
+
+![image](https://github.com/user-attachments/assets/28f2a682-bbe8-49f7-a4a6-d7f6f2f0b73c)
+
+![image](https://github.com/user-attachments/assets/c7f5482c-0202-4c76-a742-bcdcb1fbf64a)
+
+![image](https://github.com/user-attachments/assets/5aec9c34-dc6d-4e52-b316-4e93e097d850)
+
+![image](https://github.com/user-attachments/assets/d1732f3b-8393-4207-9998-ea7e37ed6655)
+
+![image](https://github.com/user-attachments/assets/8eb34862-56e5-4fa0-ad3d-277a9f2b791b)
+
+![image](https://github.com/user-attachments/assets/6437a87a-0ef2-4a1b-8b3c-45229a8bb2e3)
+
+![image](https://github.com/user-attachments/assets/d28b952c-247b-4595-bde9-acc012fa96f5)
+
 
  QUANTUM KUBERNETES
  ********************
