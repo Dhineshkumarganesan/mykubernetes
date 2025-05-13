@@ -419,6 +419,11 @@ Volumes
 
 ![image](https://github.com/user-attachments/assets/d28b952c-247b-4595-bde9-acc012fa96f5)
 
+![image](https://github.com/user-attachments/assets/0aed4401-2349-439e-b89d-433052bdf63b)
+
+
+
+
 
  QUANTUM KUBERNETES
  ********************
