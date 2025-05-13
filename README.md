@@ -416,7 +416,6 @@ Volumes
 
 ![image](https://github.com/user-attachments/assets/8eb34862-56e5-4fa0-ad3d-277a9f2b791b)
 
-![image](https://github.com/user-attachments/assets/6437a87a-0ef2-4a1b-8b3c-45229a8bb2e3)
 
 ![image](https://github.com/user-attachments/assets/d28b952c-247b-4595-bde9-acc012fa96f5)
 
